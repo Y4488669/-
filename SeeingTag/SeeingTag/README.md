@@ -70,8 +70,8 @@ pip install -r requirements.txt
 
 ```powershell
 # 1. 打开 PowerShell，进入项目目录
-cd "c:\Users\lx\Desktop\Car\new\dingwei\SeeingTag\SeeingTag"
-
+cd "c:\Users\lx\Desktop\Car\position\SeeingTag\SeeingTag"
+或者 cd ./
 # 2. 激活虚拟环境
 .\venv\Scripts\Activate.ps1
 
