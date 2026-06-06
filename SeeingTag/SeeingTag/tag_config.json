@@ -1,0 +1,26 @@
+{
+  "tag_size_m": 0.166,
+  "fov_degrees": 66.1,
+  "min_tag_width_pixels": 8,
+  "filter_alpha": 0.3,
+  "output_filter_alpha": 0.15,
+  "unity_ip": "192.168.43.226",
+  "unity_port": 9005,
+  "tag_world_positions": {
+    "1": {"x": 5.0, "y": 0.0, "z": 0.0},
+    "2": {"x": 0.0, "y": 0.0, "z": 0.0},
+    "3": {"x": 0.0, "y": 0.0, "z": 4.0},
+    "4": {"x": 5.0, "y": 0.0, "z": 4.0}
+  },
+  "car_tag_id": 10,
+  "flip_x": false,
+  "flip_z": false,
+
+  "_comment_homography_mode": {
+    "once": "启动时检测一次固定标签，之后不再更新（性能最优，适合相机绝对固定）",
+    "interval": "每N帧更新一次H矩阵（推荐，平衡性能与容错）",
+    "every_frame": "每帧都更新H矩阵（最稳定，性能最低）"
+  },
+  "homography_update_mode": "once",
+  "homography_update_interval": 30
+}
